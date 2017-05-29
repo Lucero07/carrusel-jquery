@@ -1,0 +1,58 @@
+
+body {
+    background-color: background-color:#87CEFA;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {
+        background-color: #DF013A;
+    }
+    to {
+        background-color: #BFFF00;
+    }
+}
+
+#flor2, #flor3, #flor4{
+  display: none;
+}
+
+ button{
+   border-radius: 50%;
+   border: 2px solid cyan;
+   background-color: rgba(0, 0, 0, 0);
+ }
+ button:hover{
+   background-color: rgba(255, 6, 6,1);
+ }
+ #carrusel .row div{
+   border: .5em solid #ed9ce3;
+    margin: 2% auto;
+    height: 500px;
+    border-radius: .5em;
+    box-shadow: 10px 10px 5px #888;
+
+ }
+#carrusel img{
+width: 100%;
+height: 100%;
+
+}
+
+
+
+ .slide img{
+     width: 100%;
+     height: 500px;
+     position: absolute;
+
+ }
+
+  .slide .flor2, .slide .flor3, .slide .flor4{
+      display: none;
+ }
+
+ figure{
+     margin: 0;
+  }
