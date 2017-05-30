@@ -26,28 +26,24 @@ body {
  button:hover{
    background-color: rgba(255, 6, 6,1);
  }
+
  #carrusel .row div{
    border: .5em solid #ed9ce3;
     margin: 2% auto;
     height: 500px;
     border-radius: .5em;
     box-shadow: 10px 10px 5px #888;
-
+    float: none;
  }
 #carrusel img{
 width: 100%;
 height: 100%;
 
 }
-
-
-
  .slide img{
      width: 100%;
-     height: 500px;
-     position: absolute;
-
- }
+     height: 300px;
+  }
 
   .slide .flor2, .slide .flor3, .slide .flor4{
       display: none;
